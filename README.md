@@ -1,6 +1,10 @@
 # AVSP
 [Analysis of Big Datasets](https://www.fer.unizg.hr/en/course/aomds)
 
+## Project theme: Extracting Deep Features for Image Recommendation
+
+Project is written in Python 2 using Tensorflow framework for feature extraction. Features were extracted using a pretrained Inception-v4 net trained on ImageNet dataset. Feature vector is created by concatenating a max pool with a kernel of image size for each layer. That means if the output of a convolution is 12x12x1024 for each image we used a max pool layer with kernels [1, 12, 12, 1] as defined in Tensorflow. The result of the max pool for the given image is a vector of size [1, 1, 1024] which was then flattened and concatenated for every convolution layer. Resulting vector had ~16000 features which were reduced with principal component analysis (PCA) to size of just 300 elements used for further comparison. Angular and Euclidean distance was used as a metric during vector comparisons with numpy queries. Second implementation for querying was done using a library called [NMSLIB](https://github.com/searchivarius/nmslib) which creates indexes from vectors for efficient querying. Instructions on how to setup everything can be found bellow.
+
 ## Table of contents
 
 <a href="#Data">Getting the dataset</a><br>
@@ -55,7 +59,7 @@ source ./env/bin/activate
 
 Install the prerequisite packages:  
 ```
-pip2 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 After this install either ipython2 or jupyter notebook and install the required kernel so you can access the environment
