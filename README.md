@@ -6,7 +6,7 @@ Analysis of Big Datasets
 ### Getting the dataset
 The code will work on any dataset, it expects to get a root folder which will contain only images and/or folders with images
 
-The dataset we used was the OpenImage dataset and we used code from this github https://github.com/ejlb/google-open-image-download 
+The dataset we used was the OpenImage dataset and we used a downloader from this github https://github.com/ejlb/google-open-image-download 
 to download it effectively. 
 
 After u clone the repository and get the CSV files you execute this in your terminal:  
