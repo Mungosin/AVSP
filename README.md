@@ -27,8 +27,15 @@ If you don't have an NVIDIA GPU then change the tensorflow-gpu in requirements.t
 
 Now position yourself in the project root folder
 
-To use the code we suggest creating a virtual environment in the folder for example:  
+To use the code we suggest creating a virtual environment
+First install virtual environment with:  
+pip install virtualenv
+
+After that create your virtual environment:  
 virtualenv -p /usr/bin/python2 env
+
+Activate the environment with:  
+source ./env/bin/activate
 
 Install the prerequisite packages  
 pip2 install -r requirements.txt
