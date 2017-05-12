@@ -83,7 +83,7 @@ You should be ready to go with just executing this line in the terminal:
 ```
 python -m ipykernel install --user --name=[Name you desire]
 ```
-* Our kernel name is AVSP, if you name it differently then you will get an error saying there is no kernel named AVSP in the project. To resolve that just choose the kernel you just created from the dropdown list and click set.
+* Our kernel name is AVSP. If you name it differently then you will get an error saying there is no kernel named AVSP. To resolve that just choose the kernel you just created from the dropdown list and click set.
   
   
 To get the progress bar to work in the notebook run this command in your terminal:  
