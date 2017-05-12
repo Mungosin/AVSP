@@ -12,7 +12,7 @@ Project is written in Python 2 using Tensorflow framework for feature extraction
 <a href='#Python'>Python packages</a><br>
 <a href='#Results'>Example results</a><br>
 
-### Getting the dataset
+## Getting the dataset
 <a id='Data'></a>
 
 The code will work on any dataset, it expects to get a root folder which will contain only images and/or folders with images.
@@ -22,7 +22,7 @@ The dataset we used was the OpenImage dataset and we downloaded it using this pa
 After u clone the repository and get the CSV files you execute this in your terminal:  
 python2 download.py [CSV_PATH] [OUTPUT_FOLDER_PATH] 
 
-### Getting Tensorflow models setup
+## Getting Tensorflow models setup
 <a id='Tensorflow'></a>
 Open the terminal and change the directory to the project root folder and run this in the terminal:
 ```
@@ -38,7 +38,7 @@ Untar the downloaded file by executing:
 tar -xvf InceptionV4.tar.gz
 ```
 
-### Python packages
+## Python packages
 <a id='Python'></a>
 If you don't have an NVIDIA GPU then change the tensorflow-gpu in requirements.txt to just tensorflow before running the installation.
 
@@ -79,7 +79,7 @@ Now you're ready to run the notebook, in the terminal enter:
 ipython2 notebook
 ```
 
-### Example results
+## Example results
 <a id='Results'></a>
 
 <table  border="0" width="100%" style="border:none">
