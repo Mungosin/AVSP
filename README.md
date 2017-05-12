@@ -10,6 +10,7 @@ Project is written in Python 2 using Tensorflow framework for feature extraction
 <a href="#Data">Getting the dataset</a><br>
 <a href='#Tensorflow'>Getting Tensorflow models</a><br>
 <a href='#Python'>Python packages</a><br>
+<a href='#Results'>Example results</a><br>
 
 ### Getting the dataset
 <a id='Data'></a>
@@ -77,3 +78,41 @@ Now you're ready to run the notebook, in the terminal enter:
 ```
 ipython2 notebook
 ```
+
+### Example results
+<a id='Results'></a>
+
+<table  border="0" width="100%" style="border:none">
+<tr width="100%" border="0" style="border:none">
+<td border="0" align="center" style="border:none">
+Query Image:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/bird.jpg" width="400">
+</td>
+<td border="0"  align="center" style="border:none">
+Top 15 results:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/bird_response.png" width="400">
+</td>
+</tr>
+
+<tr width="100%" border="0" style="border:none">
+<td border="0" align="center" style="border:none">
+Query Image:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/cat.jpg" width="400">
+</td>
+<td border="0"  align="center" style="border:none">
+Top 15 results:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/cat_response.png" width="400">
+</td>
+</tr>
+
+<tr width="100%" border="0" style="border:none">
+<td border="0" align="center" style="border:none">
+Query Image:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/car.jpg" width="400">
+</td>
+<td border="0"  align="center" style="border:none">
+Top 15 results:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/car_response.png" width="400">
+</td>
+</tr>
+</table>
