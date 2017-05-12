@@ -46,48 +46,57 @@ Untar the downloaded file by executing:
 ```
 tar -xvf InceptionV4.tar.gz
 ```
-
+  
 ## Python packages
 <a id='Python'></a>
 If you don't have an NVIDIA GPU then change the tensorflow-gpu in requirements.txt to just tensorflow before running the installation.
-
+  
 Now position yourself in the project root folder.
-
+  
 To use the code we suggest creating a virtual environment.  
 First install virtual environment with:  
 ```
 pip install virtualenv
-```
+```  
+  
+  
 After that create your virtual environment:  
 ```
 virtualenv -p /usr/bin/python2 env
-```
+```  
+  
+  
 Activate the environment with:  
 ```
 source ./env/bin/activate
 ```
-
+  
+  
 Install the prerequisite packages:  
 ```
 pip install -r requirements.txt
-```
-
+```  
+  
+  
 After this install either ipython2 or jupyter notebook and install the required kernel so you can access the environment
 You should be ready to go with just executing this line in the terminal:  
 ```
 python -m ipykernel install --user --name=[Name you desire]
 ```
-
+* Our kernel name is AVSP, if you name it differently then you will get an error saying there is no kernel named AVSP in the project. To resolve that just choose the kernel you just created from the dropdown list and click set.
+  
+  
 To get the progress bar to work in the notebook run this command in your terminal:  
 ```
 jupyter nbextension enable --py --sys-prefix widgetsnbextension
-```
-
+```  
+  
+  
 Now you're ready to run the notebook, in the terminal enter:  
 ```
 ipython2 notebook
 ```
-
+  
 ## NMSLIB installation
 <a id='NMSLIB'></a>
 
@@ -103,11 +112,22 @@ git clone https://github.com/searchivarius/nmslib
 <tr width="100%" border="0" style="border:none">
 <td border="0" align="center" style="border:none">
 Query Image:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/food.jpg" width="400">
+</td>
+<td border="0"  align="center" style="border:none">
+Top 15 results:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/food_response.jpg" width="400">
+</td>
+</tr>
+
+<tr width="100%" border="0" style="border:none">
+<td border="0" align="center" style="border:none">
+Query Image:
 <img src="https://github.com/Mungosin/AVSP/blob/master/results/bird.jpg" width="400">
 </td>
 <td border="0"  align="center" style="border:none">
 Top 15 results:
-<img src="https://github.com/Mungosin/AVSP/blob/master/results/bird_response.png" width="400">
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/bird_response.jpg" width="400">
 </td>
 </tr>
 
@@ -118,7 +138,7 @@ Query Image:
 </td>
 <td border="0"  align="center" style="border:none">
 Top 15 results:
-<img src="https://github.com/Mungosin/AVSP/blob/master/results/cat_response.png" width="400">
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/cat_response.jpg" width="400">
 </td>
 </tr>
 
@@ -129,7 +149,7 @@ Query Image:
 </td>
 <td border="0"  align="center" style="border:none">
 Top 15 results:
-<img src="https://github.com/Mungosin/AVSP/blob/master/results/car_response.png" width="400">
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/car_response.jpg" width="400">
 </td>
 </tr>
 </table>
