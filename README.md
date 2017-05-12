@@ -115,7 +115,7 @@ Query Image:
 <img src="https://github.com/Mungosin/AVSP/blob/master/results/food.jpg" width="400">
 </td>
 <td border="0"  align="center" style="border:none">
-Top 15 results:
+Top 12 results:
 <img src="https://github.com/Mungosin/AVSP/blob/master/results/food_response.jpg" width="400">
 </td>
 </tr>
@@ -126,7 +126,7 @@ Query Image:
 <img src="https://github.com/Mungosin/AVSP/blob/master/results/bird.jpg" width="400">
 </td>
 <td border="0"  align="center" style="border:none">
-Top 15 results:
+Top 12 results:
 <img src="https://github.com/Mungosin/AVSP/blob/master/results/bird_response.jpg" width="400">
 </td>
 </tr>
@@ -137,7 +137,7 @@ Query Image:
 <img src="https://github.com/Mungosin/AVSP/blob/master/results/meadow.jpg" width="400">
 </td>
 <td border="0"  align="center" style="border:none">
-Top 15 results:
+Top 12 results:
 <img src="https://github.com/Mungosin/AVSP/blob/master/results/meadow_response.jpg" width="400">
 </td>
 </tr>
@@ -148,7 +148,7 @@ Query Image:
 <img src="https://github.com/Mungosin/AVSP/blob/master/results/car.jpg" width="400">
 </td>
 <td border="0"  align="center" style="border:none">
-Top 15 results:
+Top 12 results:
 <img src="https://github.com/Mungosin/AVSP/blob/master/results/car_response.jpg" width="400">
 </td>
 </tr>
@@ -159,7 +159,7 @@ Query Image:
 <img src="https://github.com/Mungosin/AVSP/blob/master/results/cat.jpg" width="400">
 </td>
 <td border="0"  align="center" style="border:none">
-Top 15 results:
+Top 12 results:
 <img src="https://github.com/Mungosin/AVSP/blob/master/results/cat_response.jpg" width="400">
 </td>
 </tr>
