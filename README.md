@@ -152,4 +152,15 @@ Top 15 results:
 <img src="https://github.com/Mungosin/AVSP/blob/master/results/car_response.jpg" width="400">
 </td>
 </tr>
+
+<tr width="100%" border="0" style="border:none">
+<td border="0" align="center" style="border:none">
+Query Image:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/cat.jpg" width="400">
+</td>
+<td border="0"  align="center" style="border:none">
+Top 15 results:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/cat_response.jpg" width="400">
+</td>
+</tr>
 </table>
