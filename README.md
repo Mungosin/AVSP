@@ -1,5 +1,5 @@
 # AVSP
-[Analysis of Big Datasets](https://www.fer.unizg.hr/en/course/aomds)
+[Analysis of Massive Datas Sets](https://www.fer.unizg.hr/en/course/aomds)
 
 ## Project theme: Extracting Deep Features for Image Recommendation
 
@@ -11,6 +11,7 @@ Project is written in Python 2 using Tensorflow framework for feature extraction
 <a href="#Data">Getting the dataset</a><br>
 <a href='#Tensorflow'>Getting Tensorflow models</a><br>
 <a href='#Python'>Python packages</a><br>
+<a href='#NMSLIB'>NMSLIB installation</a><br>
 <a href='#Results'>Example results</a><br>
 
 ## Requirements
@@ -86,6 +87,14 @@ Now you're ready to run the notebook, in the terminal enter:
 ```
 ipython2 notebook
 ```
+
+## NMSLIB installation
+<a id='NMSLIB'></a>
+
+```
+git clone https://github.com/searchivarius/nmslib
+```
+
 
 ## Example results
 <a id='Results'></a>
