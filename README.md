@@ -11,6 +11,7 @@ Project is written in Python 2 using Tensorflow framework for feature extraction
 <a href="#Data">Getting the dataset</a><br>
 <a href='#Tensorflow'>Getting Tensorflow models</a><br>
 <a href='#Python'>Python packages</a><br>
+<a href='#PCA'>PCA model</a><br>
 <a href='#NMSLIB'>NMSLIB installation</a><br>
 <a href='#Results'>Example results</a><br>
 
@@ -96,7 +97,18 @@ Now you're ready to run the notebook, in the terminal enter:
 ```
 ipython2 notebook
 ```
-  
+
+
+## PCA model
+<a id='PCA'></a>
+
+We used the first batch of 100.000 images to train our PCA model. Our model can be downloaded by executing this command in your terminal:    
+```
+wget -O PCA_model_300.pkl https://www.dropbox.com/s/8rqrxyiffx2hxvs/PCA_model_300.pkl?dl=0
+```
+The program will expect the model to be in the same folder as the full_vectors.npy and full_paths.npy so after downloading it place it there.
+
+
 ## NMSLIB installation
 <a id='NMSLIB'></a>
 
