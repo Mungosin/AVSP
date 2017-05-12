@@ -1,5 +1,5 @@
 # AVSP
-[Analysis of Massive Datas Sets](https://www.fer.unizg.hr/en/course/aomds)
+[Analysis of Massive Data Sets](https://www.fer.unizg.hr/en/course/aomds)
 
 ## Project theme: Extracting Deep Features for Image Recommendation
 
