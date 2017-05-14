@@ -112,10 +112,27 @@ The program will expect the model to be in the same folder as the full_vectors.n
 ## NMSLIB installation
 <a id='NMSLIB'></a>
 
+Clone the github repository with this command:
 ```
 git clone https://github.com/searchivarius/nmslib
 ```
 
+Install prerequisite packages:
+```
+sudo apt-get install libboost-all-dev libgsl0-dev libeigen3-dev
+```
+
+Change directory to similarity_search and run the following commands:
+```
+cmake .
+make  
+```
+
+Activate your virtual environment if you haven't done so already. Change directory to python bindings and run these commands:
+```
+python setup.py build
+sudo python setup.py install
+```
 
 ## Example results
 <a id='Results'></a>
