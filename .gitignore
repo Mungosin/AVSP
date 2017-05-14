@@ -7,3 +7,4 @@ final_results/
 build/
 InceptionV4.tar.gz
 inception_v4.ckpt
+.ipynb_checkpoints/
