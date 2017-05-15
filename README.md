@@ -3,7 +3,7 @@
 
 ## Project theme: Extracting Deep Features for Image Recommendation
 
-Project is written in Python 2 using Tensorflow framework for feature extraction. Features were extracted using a pretrained Inception-v4 net trained on ImageNet dataset. Feature vector is created by concatenating a max pool with a kernel of image size for each layer. That means if the output of a convolution is 12x12x1024 for each image we used a max pool layer with kernels [1, 12, 12, 1] as defined in Tensorflow. The result of the max pool for the given image is a vector of size [1, 1, 1024] which was then flattened and concatenated for every convolution layer. Resulting vector has ~16000 features which is then reduced with principal component analysis (PCA) to size of just 300 elements later used for similarity comparisons. Angular and Euclidean distance was used as a metric during vector comparisons with numpy queries. Second implementation for querying was done using a library called [NMSLIB](https://github.com/searchivarius/nmslib) which creates indexes from vectors for efficient querying. Instructions on how to setup everything can be found bellow.
+Project is written in Python 2 using Tensorflow framework for feature extraction. Dataset we tested on is the OpenImage dataset. Due to the time it required to download the images we stopped after downloading a little bit over 900.000 images. Features were extracted using a pretrained Inception-v4 net trained on ImageNet dataset. Feature vector is created by concatenating a max pool with a kernel of image size for each layer. That means if the output of a convolution is 12x12x1024 for each image we used a max pool layer with kernels [1, 12, 12, 1] as defined in Tensorflow. The result of the max pool for the given image is a vector of size [1, 1, 1024] which was then flattened and concatenated for every convolution layer. Resulting vector has ~16000 features which is then reduced with principal component analysis (PCA) to size of just 300 elements later used for similarity comparisons. Angular and Euclidean distance was used as a metric during vector comparisons with numpy queries. Second implementation for querying was done using a library called [NMSLIB](https://github.com/searchivarius/nmslib) which creates indexes from vectors for efficient querying. Instructions on how to setup everything can be found bellow.
 
 ## Table of contents
 
@@ -190,6 +190,72 @@ Query Image:
 <td border="0"  align="center" style="border:none">
 Top 12 results:
 <img src="https://github.com/Mungosin/AVSP/blob/master/results/cat_response.jpg" width="400">
+</td>
+</tr>
+
+<tr width="100%" border="0" style="border:none">
+<td border="0" align="center" style="border:none">
+Query Image:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/girl.jpg" width="400">
+</td>
+<td border="0"  align="center" style="border:none">
+Top 12 results:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/girl_response.jpg" width="400">
+</td>
+</tr>
+
+<tr width="100%" border="0" style="border:none">
+<td border="0" align="center" style="border:none">
+Query Image:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/thumbnail_beach2.jpg" width="400">
+</td>
+<td border="0"  align="center" style="border:none">
+Top 12 results:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/thumbnail_beach2_response.jpg" width="400">
+</td>
+</tr>
+
+<tr width="100%" border="0" style="border:none">
+<td border="0" align="center" style="border:none">
+Query Image:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/california.jpg" width="400">
+</td>
+<td border="0"  align="center" style="border:none">
+Top 12 results:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/california_response.jpg" width="400">
+</td>
+</tr>
+
+<tr width="100%" border="0" style="border:none">
+<td border="0" align="center" style="border:none">
+Query Image:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/thumbnail_val_thorens.jpg" width="400">
+</td>
+<td border="0"  align="center" style="border:none">
+Top 12 results:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/thumbnail_val_thorens_response.jpg" width="400">
+</td>
+</tr>
+
+<tr width="100%" border="0" style="border:none">
+<td border="0" align="center" style="border:none">
+Query Image:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/thumbnail_paris.jpg" width="400">
+</td>
+<td border="0"  align="center" style="border:none">
+Top 12 results:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/thumbnail_paris_response.jpg" width="400">
+</td>
+</tr>
+
+<tr width="100%" border="0" style="border:none">
+<td border="0" align="center" style="border:none">
+Query Image:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/thumbnail_street3.jpg" width="400">
+</td>
+<td border="0"  align="center" style="border:none">
+Top 12 results:
+<img src="https://github.com/Mungosin/AVSP/blob/master/results/thumbnail_street3_response.jpg" width="400">
 </td>
 </tr>
 </table>
